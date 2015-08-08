@@ -41,3 +41,6 @@ class TestNumberToFizzBuzz(unittest.TestCase):
 
     def test_it_should_return_fizzbuzz_when_number_is_15(self):
         self.assertEqual('fizzbuzz', self.fizzbuzz.count(15))
+
+if __name__ == '__main__':
+    unittest.main()
